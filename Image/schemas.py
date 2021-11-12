@@ -17,7 +17,6 @@ class User_Request(BaseModel):
 
 class ShowUser_Request(BaseModel):
     image_url: str
-    time: str
     class Config():
         orm_mode = True
 
